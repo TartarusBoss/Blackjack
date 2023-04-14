@@ -137,6 +137,7 @@ class Casa:
 class Blackjack:
 
     def __init__(self):
+        self.Mano = None
         self.apuesta_actual: int = 0
         self.jugador: Optional[Jugador] = None
         self.cupier: Casa = Casa()
